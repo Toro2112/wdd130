@@ -1,0 +1,141 @@
+/* Root variables for consistent styling */
+:root {
+    --primary-color: #007bff;  /* Adjust as per your color scheme */
+    --secondary-color: #ff8c00;  /* Adjust as per your color scheme */
+    --font-primary: 'Merriweather', serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --light-background: #f4f4f4;
+    --dark-background: #333;
+}
+
+/* General Styles */
+body {
+    font-family: var(--font-secondary);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: var(--dark-background);
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: var(--font-primary);
+    color: var(--primary-color);
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 15px 30px;
+}
+
+header img {
+    width: 150px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Article within Hero */
+.hero article {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    width: 300px;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--dark-background);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Social Links */
+.sociallinks a {
+    margin: 0 10px;
+}
+
+.sociallinks img {
+    width: 30px;
+}
+
+.sociallinks a:hover img {
+    opacity: 0.7;
+}
