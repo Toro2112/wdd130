@@ -1,11 +1,11 @@
 /* Root variables for consistent styling */
 :root {
-    --primary-color: #007bff;  /* Adjust as per your color scheme */
-    --secondary-color: #ff8c00;  /* Adjust as per your color scheme */
+    --primary-color: #f6f7f8;  /* Adjust as per your color scheme */
+    --secondary-color: #15e0cf;  /* Adjust as per your color scheme */
     --font-primary: 'Merriweather', serif;
     --font-secondary: 'Roboto', sans-serif;
-    --light-background: #f4f4f4;
-    --dark-background: #333;
+    --dark-background: #4ce4dc;
+    --dark-background: #5fa83c;
 }
 
 /* General Styles */
@@ -26,19 +26,23 @@ h1, h2 {
 
 /* Header Styles */
 header {
-    display: flex;
-    justify-content: space-between;
+    margin: 1 rem auto;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
     align-items: center;
-    background-color: var(--secondary-color);
-    padding: 15px 30px;
+    border-bottom: 1px solid #15e0cf ;
+    max-width: 1000px;
 }
 
-header img {
-    width: 200px;
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
 }
 
 /* Navigation Styles */
 nav ul {
+    text-align: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,12 +50,14 @@ nav ul {
 }
 
 nav ul li {
+    flex: 1 1 100%;
     margin-left: 20px;
 }
 
 nav ul li a {
+    display: block;
     text-decoration: none;
-    color: #fff;
+    color: hsl(0, 72%, 46%);
     font-size: 18px;
 }
 
@@ -62,11 +68,11 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     position: relative;
-    text-align: center;
+    text-align: right;
 }
 
 .hero img {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
 }
@@ -76,7 +82,7 @@ nav ul li a:hover {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -20%);
-    color: #fff;
+    color: #ffffff;
     font-size: 3rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
@@ -99,7 +105,12 @@ nav ul li a:hover {
 }
 
 /* Section Styling */
-section {
+fiqure {
+    border: thin #15e0cf solid;
+    display: flex;
+    flex-flow: column;
+
+
     padding: 40px;
 }
 
@@ -108,6 +119,7 @@ section img {
     height: auto;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin: auto
 }
 
 h2 {
@@ -117,8 +129,8 @@ h2 {
 
 /* Footer Styling */
 footer {
-    background-color: var(--dark-background);
-    color: #fff;
+    background-color: var(--blue-background);
+    color: #4dbef3;
     text-align: center;
     padding: 20px;
 }
