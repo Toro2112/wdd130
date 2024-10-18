@@ -54,14 +54,14 @@ header img {
 }
 
 .hero img {
-   
+    
     width: 100%;
     height: auto;
 }
 
 .hero h1 {
     position: absolute;
-    top: 10%;
+    top: 5%;
     text-align: center;
     width: 100%;
     color: #ffffff;
@@ -91,7 +91,7 @@ header img {
 fiqure {
     border: thin #15e0cf solid;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
 
 
     padding: 40px;

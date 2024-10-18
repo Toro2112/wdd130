@@ -1,32 +1,106 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us-Rafting Company</title>
-    <meta name="description" content="">
+    <title>Contac Us-Rafting Company</title>
+    <meta name="description" content="Contact Us">
     <meta name="author" content="Thabang Ratema">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-          <img src="images/rafting-logo.png" alt="Rafting Company Logo" />  
-            <nav>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>    
+        <img src="images/rafting-logo.png" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
 
     </header>
     <main>
-       
+        <div class="hero">
+
+            <img src="images/rafting18_600.webp" alt="Rafting Adventure">
+            <form>
+            <h1>Contact Us</h1>
+             
+             <p> For more information how to get in touch with us. Choose the best communication method for your booking.Please note that we do not accomodate walk in client.</p>
+
+            <form>
+                <fieldset>
+                    <legend> Contact information</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="fname" id="fullname" name="fullname">
+                    <label for="usermail">Email:</label>
+                    <input type="email" id="usermail" name="usermail">
+                </fieldset>
+                <fieldset>  
+                    <label for="cell_number">Cell Number</label>
+                    <input type="cnumber" id="cellnumber" name="cell_number">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="30"></textarea>
+                </fieldset>
+                <fieldset>
+                <legend>Question</legend>
+                <label for="Adventure">Choose your Adventure?</label>
+                <input type="radio" id="General inquiry" name="Adventure" value="General_inquiry">
+                <label for="General_inquiry">General_inquiry</label><br>
+                <input type="radio" id="Reservation_question" name="Adventure" value="Reservation_question">
+                <label for="Reservation_question">Reservation question</label><br>
+                <input type="radio" id="Package_suggestion" name="Adventure" value="Package_suggestion">
+                <label for="Package_suggestion">Package suggestion</label>
+                <input type="submit" value="Submit">
+                </fieldset>
+                </form>
+
+        <section>
+            <h2>Get In Touch</h2>
+        <div> class="Happy Employees">
+            <img src="images/Happy E.1.jpg" alt="Happy E.">
+            <img src="images/Happy E.2.jpg" alt="Happy E.">
+            <img src="images/Happy E.3.jpg" alt="Happy E.">
+        </div>
+            <p>White River Rafting</p>
+            <p>Phone: 000-000-000</p>
+            <p>Email: <a href="mailto:">outlook</a></p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14350.63873202025!2d27.951342165637197!3d-25.94639681430929!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1729289335277!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section>
+
+            <h2>Adverture Awaits You!</h2>
+            <figure>
+                <img src="images/rafting1.jpg" alt="Rafting Adventure 1">
+                <figcaption> Calm before the storm</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting2.jpg" alt="Rafting Adventure 2">
+                <figcaption>Team building</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting3.webp" alt="Rafting Adventure 3">
+                <figcaption>The storm</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting4.webp" alt="Rafting Adventure 4">
+                <figcaption>The tornado</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting5.webp" alt="Rafting Adventure 5">
+                <figcaption>The Hurricane</figcaption>
+            </figure>
+        </section>
     </main>
 
     <footer>
@@ -45,4 +119,5 @@
     </footer>
 
 </body>
+
 </html>
