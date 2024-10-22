@@ -91,7 +91,7 @@ header img {
 fiqure {
     border: thin #15e0cf solid;
     display: flex;
-    flex-flow: row;
+    flex-flow: column ;
     padding: 40px;
 }
 
