@@ -90,7 +90,20 @@ footer{
     width:650px;
     text-align: center;
     font-size: 0.8em;
-    color:#777
+    color:#777;
     border-top: 1px solid #ccc;
+}
+
+.form-term {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr; 1fr;
+    margin 0.5rem. 0;
+}
+.colmumn2 {
+    grid-template-columns: 1fr;2fr;
 }
 
