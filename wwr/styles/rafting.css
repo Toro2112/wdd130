@@ -61,9 +61,9 @@ header img {
 
 .hero h1 {
     position: absolute;
-    top: 5%;
+    top: 10%;
     text-align: center;
-    width: 100%;
+    width: 30%;
     color: #ffffff;
     font-size: 3rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
