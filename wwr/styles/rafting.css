@@ -129,16 +129,16 @@ footer {
 }
 
 footer p {
-    margin: 10px 0;
+    margin: 50px 0;
 }
 
 /* Social Links */
 .sociallinks a {
-    margin: 0 10px;
+    margin: 0 50px;
 }
 
 .sociallinks img {
-    width: 10px;
+    width: 50px;
 }
 
 .sociallinks a:hover img {
