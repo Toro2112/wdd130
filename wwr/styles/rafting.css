@@ -102,8 +102,8 @@ a {
 /* Section Styling */
 fiqure {
     border: thin #15e0cf solid;
-    display: flex;
-    flex-flow: column ;
+    display: grid;
+    flex-flow: row ;
     padding: 40px;
 }
 
