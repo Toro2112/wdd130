@@ -1,11 +1,11 @@
 /* Root variables for consistent styling */
 :root {
-    --primary-color: #f6f7f8;  /* Adjust as per your color scheme */
+    --primary-color: #7db5ec;  /* Adjust as per your color scheme */
     --secondary-color: #15e0cf;  /* Adjust as per your color scheme */
     --font-primary: 'Merriweather', serif;
     --font-secondary: 'Roboto', sans-serif;
     --dark-background: #d3dbdb;
-    --dark-background: #e6e7db;
+    --dark-background: #3fa8ee;
 }
 * {
     box-sizing: border-box;
