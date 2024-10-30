@@ -1,13 +1,13 @@
 /* Root variables for consistent styling */
 :root {
-    --primary-color: #030b13;
+    --primary-color: #f0f5f5;
     /* Adjust as per your color scheme */
-    --secondary-color: #034742;
+    --secondary-color: #aee4e4;
     /* Adjust as per your color scheme */
     --font-primary: 'Merriweather', serif;
     --font-secondary: 'Roboto', sans-serif;
-    --dark-background: #0c2e2e;
-    --brown-background: #494343;
+    --dark-background: #f0f0f0;
+    --brown-background: #cddcdf;
 }
 
 * {
@@ -46,7 +46,7 @@ a {
 
 figure {
     margin: 0;
-    border: thin #010808 solid;
+    border: thin #171818 solid;
     display: flex;
     flex-direction:column;
    
@@ -68,7 +68,7 @@ header {
 header img {
     width: 100%;
     height: auto;
-    background-color: #fff;;
+    background-color: #f0e8e8;;
 }
 
 /* Navigation Styles */
@@ -83,7 +83,7 @@ nav {
 
 a {
     position: relative;
-    color: white;
+    color: rgb(14, 12, 12);
     font-size: 28px;
     padding: 0.5rem 1rem
 }
@@ -105,7 +105,7 @@ a {
     top: 5%;
     text-align: center;
     width: 100%;
-    color: #ffffff;
+    color: #e2d6d6;
     font-size: 3rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
@@ -118,7 +118,7 @@ a {
     right: 10%;
     background-color: rgba(51, 51, 51, 0.281);
     background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: #f3efef;
     padding: 20px;
 }
 
@@ -139,14 +139,14 @@ a {
 
 .adventures h2 {
     font-size: 2rem;
-    color: #fff;
+    color: #161515;
     grid-column: 1/6;
 }
 
 /* Footer Styling */
 footer {
     background-color: var(--brown-background);
-    color: #fff;
+    color: #110202;
     padding: 20px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
