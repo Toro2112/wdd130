@@ -1,15 +1,19 @@
 /* Root variables for consistent styling */
 :root {
-    --primary-color: #030b13;  /* Adjust as per your color scheme */
-    --secondary-color: #15e0cf;  /* Adjust as per your color scheme */
+    --primary-color: #030b13;
+    /* Adjust as per your color scheme */
+    --secondary-color: #034742;
+    /* Adjust as per your color scheme */
     --font-primary: 'Merriweather', serif;
     --font-secondary: 'Roboto', sans-serif;
     --dark-background: #0c2e2e;
-    --dark-background: #c9dde7;
+    --brown-background: #494343;
 }
+
 * {
     box-sizing: border-box;
 }
+
 /* General Styles */
 body {
     font-family: var(--font-secondary);
@@ -17,41 +21,66 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: var(--dark-background);
-    max-width: 1200px;
-    margin: auto;
 }
-header, main, footer {
+
+header,
+main,
+footer {
     max-width: 1000px;
     margin: 0 auto;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-primary);
     color: var(--primary-color);
 }
 
+a {
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+    border: thin #010808 solid;
+    display: flex;
+    flex-direction:column;
+   
+}
+
+img {
+    width: 100%;
+}
 /* Header Styles */
 header {
-    
+
     display: grid;
     grid-template-columns: 100px auto;
     align-items: center;
-    border-bottom: 1px solid #15e0cf ;
-   
+    border-bottom: 1px solid #15e0cf;
+
 }
 
 header img {
     width: 100%;
     height: auto;
+    background-color: #fff;;
 }
 
 /* Navigation Styles */
 nav {
-    width:100%;
+    width: 100%;
     display: flex;
     align-items: center;
     height: 50px;
     justify-content: center;
+    background-color: var(--dark-background);
 }
+
 a {
     position: relative;
     color: white;
@@ -66,7 +95,7 @@ a {
 }
 
 .hero img {
-    
+
     width: 100%;
     height: auto;
 }
@@ -100,39 +129,37 @@ a {
 }
 
 /* Section Styling */
-fiqure {
-    border: thin #15e0cf solid;
+
+
+.adventures {
     display: grid;
-    flex-flow: row ;
-    padding: 40px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
 }
 
-section img {
-    width: 200px;
-    height: auto;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin: auto
-}
-
-h2 {
+.adventures h2 {
     font-size: 2rem;
-    color: var(--secondary-color);
+    color: #fff;
+    grid-column: 1/6;
 }
 
 /* Footer Styling */
 footer {
-    background-color: var(--blue-background);
-    color: #4dbef3;
-    text-align: right;
+    background-color: var(--brown-background);
+    color: #fff;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
 }
 
-footer p {
-    margin: 50px 0;
-}
 
 /* Social Links */
+
+.sociallinks {
+    background-color: unset;
+    grid-column: 3;
+}
 .sociallinks a {
     margin: 0 50px;
 }
