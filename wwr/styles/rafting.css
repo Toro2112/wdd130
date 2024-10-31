@@ -5,7 +5,11 @@
     /* Adjust as per your color scheme */
     --font-primary: 'Merriweather', serif;
     --font-secondary: 'Roboto', sans-serif;
+<<<<<<< HEAD
     --dark-background: #b0e912;
+=======
+    --dark-background: #f0f0f0;
+>>>>>>> 4fe43b9d84438f2a89853056d72f6ada3325758c
     --brown-background: #0b22f1;
 }
 
