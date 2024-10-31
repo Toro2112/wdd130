@@ -1,12 +1,12 @@
 /* Root variables for consistent styling */
 :root {
     --primary-color: #f0f5f5;
-    --secondary-color: #aee4e4;
+    --secondary-color: #e7e4f3;
     /* Adjust as per your color scheme */
     --font-primary: 'Merriweather', serif;
     --font-secondary: 'Roboto', sans-serif;
     --dark-background: #f0f0f0;
-    --brown-background: #cddcdf;
+    --brown-background: #0b22f1;
 }
 
 * {
